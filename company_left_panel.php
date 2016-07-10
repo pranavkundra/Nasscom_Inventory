@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+.buttons { 
+
+  width: 100%;
+  
+  border-collapse: collapse;
+
+}
+
+input[type=button] {
+  height:50px;
+}
+.buttons input { 
+  width: 100%;
+}
+</style>
+</head>
+
+
+<body>
+<table class=buttons width="100%">
+   <tr><td style="font-size:50px" align=center>COMPANY</td></tr>
+<br>
+   <tr><td><a target="right" href="product1.php" ><input type="button" value="Make Donations" style="font-size:20px"></a></button></td></tr><br>
+   <tr><td><a target="right" href="details.php"><input type="button" value="View History" style="font-size:20px"></a></button></td></tr><br>
+   <tr><td><a target="right" href="logout.php"><input type="button" value="LOGOUT" style="font-size:20px"></a></button></td></tr><br>
+   </table>
+</body>
+</html>

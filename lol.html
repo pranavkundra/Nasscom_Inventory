@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        
+    </head>
+        
+    <body>
+    <center>
+        <form action="upload_file.php" method="post" enctype="multipart/form-data">
+            <table>
+                <tr><td>
+                    NGO Name: 
+                    </td><td>
+                        <input type="text" name="name">
+                    </td>
+                </tr>
+                <tr><td>
+                    Choose a User Name: 
+                    </td><td>
+                        <input type="text" name="uname">
+                    </td>
+                </tr>
+
+                <tr><td>
+                    Enter a password: 
+                    </td><td>
+                        <input type="password" name="pwd">
+                    </td>
+                </tr>
+                
+                <tr><td>
+                    Re-enter password: 
+                    </td><td>
+                        <input type="password" name="reppwd">
+                    </td>
+                </tr>
+
+                
+                <tr><td>
+                    Address: 
+                    </td><td>
+                        <textarea rows="4" cols="16" name="addr">
+                        </textarea>
+                    </td>
+                </tr>
+                <tr><td>
+                    Contact No: 
+                    </td>
+                    <td>
+                            <input type="text" name="contactno">
+                    </td>
+                </tr>
+
+                <tr><td>
+                    Email id: 
+                    </td><td>
+                        <input type="text" name="email">
+                    </td>
+                </tr>
+                
+                <tr><td>
+                    Activities: 
+                    </td><td>
+                        <textarea rows="4" cols="16" name="addr">
+                        </textarea>
+                    </td>
+                </tr>
+                
+                
+                <tr>
+                    <td><a href="" download>Download Declaration 1**</a></td>
+                </tr>
+                <tr>
+                    <td><a href="" download>Download Declaration 2**</a></td>
+                </tr>
+
+                <tr>
+                    <td><label for="file">Select files to upload: </label></td>
+		    <td><input type="file" name="file" id="file"></td>
+                </tr>
+                
+                <tr>
+                    <td> <input type="submit" value="Submit"></td>
+                    <td> <input type="reset" value="Reset"></td>
+
+                </tr>
+            </table>
+            (The uploaded files must include the completed Declaration files)
+        </form>
+    </center>
+    </body>
+</html>
